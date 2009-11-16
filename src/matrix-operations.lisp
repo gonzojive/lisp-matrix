@@ -31,6 +31,7 @@
     (with-typed-values ((one 1)
                         (zero 0)) a
       (let ((c (make-matrix (nrows a) (ncols b)
+			    :implementation (implementation a)
                             :element-type (element-type a))))
         (gemm one a b zero c)))))
 
