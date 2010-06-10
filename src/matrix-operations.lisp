@@ -41,6 +41,12 @@
     (with-typed-values ((one 1)) a
       (axpy one a (copy b)))))
 
+(defgeneric m+-into (dest a b)
+  (:documentation "Matrix addition: A + B.")
+  (:method ((into matrix-like) (a matrix-like) (b matrix-like))
+    (with-typed-values ((one 1)) a
+      (axpy one a (copy! b into)))))
+
 (defgeneric m- (a b)
   (:documentation "Matrix subtraction: A - B.")
   (:method ((a matrix-like) (b matrix-like))

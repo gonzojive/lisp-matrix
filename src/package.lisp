@@ -38,6 +38,8 @@
    v= v* v+ v- v/
    ;; v* v+ v-  ; these are inherited from m-based ops, but
 
+   m+-into
+
    ;; have a slight issue with still needing a v.* variant,
    ;; since v* would inherit from m*, which needs appropriate
    ;; matrix multiplication.
