@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header {
+	font-size: medium;
+	background-color:#336699;
+        background-image:url(gradient.png);
+        
+	color:#ffffff;
+	border-style:solid;
+	border-width: 0px;
+	border-color:#002244;
+	padding: 1mm 1mm 1mm 5mm;
+}
+
+.header h1 {
+    margin: 15px 0;
+}
+
+.content {
+    margin: 1em;
+}
+
+.footer {
+	font-size: small;
+	font-style: italic;
+	text-align: right;
+	background-color:#336699;
+	color:#ffffff;
+	border-style:solid;
+	border-width: 2px;
+	border-color:#002244;
+	padding: 1mm 1mm 1mm 1mm;
+        margin: 1em;
+}
+
+.footer a:link {
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+.footer a:visited {
+	font-weight:bold;
+	color:#ffffff; 
+	text-decoration:underline;
+}
+
+.footer a:hover { 
+	font-weight:bold; 
+	color:#002244; 
+	text-decoration:underline; }
+
+.check {font-size: x-small;
+	text-align:right;}
+
+.check a:link { font-weight:bold;
+		color:#a0a0ff;
+		text-decoration:underline; }
+
+.check a:visited { font-weight:bold;
+		   color:#a0a0ff;
+		   text-decoration:underline; }
+
+.check a:hover { font-weight:bold;
+		 color:#000000;
+		 text-decoration:underline; }
